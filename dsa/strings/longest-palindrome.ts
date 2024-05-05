@@ -3,7 +3,7 @@ question link: https://leetcode.com/problems/longest-palindrome/
 time complexity: O(N) best case
 intution:   re-arrangement is possible
             1. add all the even count chars
-            2. we can reuse the old count chars as well,
+            2. we can reuse the odd count chars as well,
                     longest odd length char + sum(remaining odd length char - 1)
                     -> bbbbb + sum(aaa + ccc)
 */

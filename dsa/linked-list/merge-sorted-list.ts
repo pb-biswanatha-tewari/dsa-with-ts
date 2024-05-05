@@ -1,5 +1,5 @@
 /* 
-question link: 
+question link: https://leetcode.com/problems/merge-two-sorted-lists/
 time complexity: O(N) best case
 intution: 1. Brute force: insert the values from both the list into an array, then make a new list out of the sorted array
           2. create a new list, and keep inserting the smaller value from the heads of the two list
