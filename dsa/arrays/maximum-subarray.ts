@@ -2,7 +2,11 @@
 question link: https://leetcode.com/problems/maximum-subarray/
 time complexity: O(N) best case
 intution: 1. Brute force: create a prefix sum and loop(j) over the prefix sum array while subtracting arr[i] to find the max sub array
-          2. Kaden's algo: we rest the sum if (sum < 0), edge cases: [array length of 1 & all negative numbered elements]
+          2. Kaden's algo: 
+            a. we traverse the array and record keep adding the numbers to the sum
+            b. max = Math.max(sum,max) // maximum at each iteration
+            c. reset the sum if (sum < 0)
+            d. edge cases: [array length of 1 & all negative numbered elements]
 */
 
 function maxSubArray(nums: number[]): number {
