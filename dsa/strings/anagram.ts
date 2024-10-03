@@ -1,6 +1,6 @@
 /* 
 question link: https://leetcode.com/problems/valid-anagram
-time complexity: O(1) best case
+time complexity: O(N) best case
 */
 
 function isAnagram(s: string, t: string): boolean {

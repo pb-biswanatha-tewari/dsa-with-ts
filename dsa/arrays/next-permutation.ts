@@ -7,8 +7,8 @@ intuition: It is based all on observations
             3. If such number exists
                 a. Find the just bigger number than the current number from the right side
                 b. swap the values
-                c. Let the number be 2132541, so uptil 3.b we made it 2131542 which is clearly not the next permutation
-                    it should be 2131245, so we reverse the array from index + 1 to n - 1.
+                c. Let the number be 2132541, so uptil 3.b we made it 2134521 which is clearly not the next permutation
+                    it should be 2134125, so we reverse the array from index + 1 to n - 1.
                     Remember the original array was having ascending order from the right, so it makes sense.
 */
 

@@ -2,7 +2,7 @@
 question link: https://leetcode.com/problems/balanced-binary-tree/
 time complexity: O(N) best case
 intution: use recursion to find the height of the left and right subtree, 
-          if there difference is more than 1, set the falg to false
+          if there difference is more than 1, set the flag to false
 */
 
 /**
