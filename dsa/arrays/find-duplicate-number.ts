@@ -22,7 +22,7 @@ function findDuplicate(nums: number[]): number {
     fast = nums[nums[fast]]; // fast = fast.next.next;
   } while (slow !== fast); // slow === fast, means there is a cyclic list, i.e, a duplcate number
 
-  // finding the duplicate number, entry point of the cyclic list or the collision point
+  // finding the duplicate number, entry point of the cyclic list
   fast = nums[0];
 
   while (fast !== slow) {
